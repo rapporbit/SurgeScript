@@ -1,4 +1,5 @@
 #!name=Endel Unlock
+#!desc=Endel Unlock
 
 [Script]
 Endel = type=http-response, pattern=^https?:\/\/api-production\.endel\.io\/v\d\/call, script-path=https://raw.githubusercontent.com/rapporbit/SurgeScript/main/js/Endel.js, requires-body=true, max-size=-1, timeout=60
