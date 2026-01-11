@@ -2,8 +2,8 @@
 #!desc=MWeb Unlock
 
 
-[rewrite_local]
+[Script]
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/rapporbit/SurgeScript/main/js/MWeb.js
 
-[mitm]
+[MITM]
 hostname = buy.itunes.apple.com

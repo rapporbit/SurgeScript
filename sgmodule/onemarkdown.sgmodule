@@ -3,8 +3,8 @@
 
 
 
-[rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/axtyet/Luminous/main/chxm1023/Rewrite/iTunes/OneMarkdown.js
+[Script]
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/rapporbit/SurgeScript/main/js/OneMarkdown.js
 
-[mitm]
+[MITM]
 hostname = buy.itunes.apple.com
