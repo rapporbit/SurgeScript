@@ -6,4 +6,4 @@
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/rapporbit/SurgeScript/main/js/MWeb.js
 
 [MITM]
-hostname = buy.itunes.apple.com
+hostname = %APPEND% buy.itunes.apple.com
