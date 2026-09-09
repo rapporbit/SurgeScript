@@ -1,28 +1,27 @@
-const NOW = 1788922611;
+const NOW = "2024-01-01T00:00:00.000Z";
 
 const entitlement = {
-  productKey: "pro_trial",
-  status: "active",
-  expiresAt: 1915412211,
-  cohort: null
+  id: "crack-ent",
+  productKey: "pro_lifetime",
+  status: "ACTIVE",
+  type: "lifetime",
+  expiresAt: null,
+  isActive: true,
+  verifiedAt: NOW
 };
 
 const license = {
-  licenseId: "lic_olU2EpLOG4not6jC0qnMeg",
-  licenseKey: "MOSHI-KY1A-GXR6-JM3P",
-  status: "active",
-  effectiveStatus: "active",
+  id: "crack-lifetime",
+  licenseKey: "MOSHI-PRO0-LIFE-TIME",
+  status: "ACTIVE",
+  productKey: "pro_lifetime",
+  expiresAt: null,
   startsAt: NOW,
-  expiresAt: 1915412211,
   autoRenew: false,
-  email: "rapporbit2@gmail.com",
-  emailBoundAt: NOW,
-  source: "trial",
-  productKey: "pro_trial",
+  activationId: "crack-act",
+  verifiedAt: NOW,
   entitlement: entitlement
 };
-
-const activationId = "act_qu3W0Fc167lhZT-GQ__bug";
 
 const BODIES = {
   me: {
@@ -36,8 +35,7 @@ const BODIES = {
     license: license,
     entitlement: entitlement,
     licenses: [license],
-    entitlements: [entitlement],
-    activationId: activationId
+    entitlements: [entitlement]
   },
   devices: {
     devices: [],
