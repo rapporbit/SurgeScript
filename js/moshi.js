@@ -11,14 +11,15 @@ const license = {
   licenseId: "lic_olU2EpLOG4not6jC0qnMeg",
   licenseKey: "MOSHI-KY1A-GXR6-JM3P",
   status: "active",
-  productKey: "pro_trial",
-  expiresAt: 1915412211,
+  effectiveStatus: "active",
   startsAt: NOW,
+  expiresAt: 1915412211,
   autoRenew: false,
-  entitlement: entitlement,
   email: "rapporbit2@gmail.com",
   emailBoundAt: NOW,
-  source: "trial"
+  source: "trial",
+  productKey: "pro_trial",
+  entitlement: entitlement
 };
 
 const activationId = "act_qu3W0Fc167lhZT-GQ__bug";
