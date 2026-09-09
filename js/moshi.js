@@ -12,13 +12,13 @@ const entitlement = {
 
 const license = {
   id: "crack-lifetime",
-  licenseKey: "MOSHI-PRO0-LIFE-TIME",
+  licenseKey: "MOSHI-KY1A-GXR6-JM3P",
   status: "ACTIVE",
   productKey: "pro_lifetime",
   expiresAt: null,
   startsAt: NOW,
   autoRenew: false,
-  activationId: "crack-act",
+  activationId: "act_qu3W0Fc167lhZT-GQ__bug",
   verifiedAt: NOW,
   entitlement: entitlement
 };
