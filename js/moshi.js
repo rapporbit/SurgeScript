@@ -15,12 +15,13 @@ const license = {
   expiresAt: 1915412211,
   startsAt: NOW,
   autoRenew: false,
-  activationId: "act_qu3W0Fc167lhZT-GQ__bug",
   entitlement: entitlement,
   email: "rapporbit2@gmail.com",
   emailBoundAt: NOW,
   source: "trial"
 };
+
+const activationId = "act_qu3W0Fc167lhZT-GQ__bug";
 
 const BODIES = {
   me: {
@@ -34,7 +35,8 @@ const BODIES = {
     license: license,
     entitlement: entitlement,
     licenses: [license],
-    entitlements: [entitlement]
+    entitlements: [entitlement],
+    activationId: activationId
   },
   devices: {
     devices: [],
