@@ -1,25 +1,23 @@
 const NOW = "2024-01-01T00:00:00.000Z";
 
 const entitlement = {
-  id: "pro_trial_crack",
-  productKey: "pro_trial",
+  id: "crack-ent",
+  productKey: "pro_lifetime",
   status: "ACTIVE",
-  type: "trial",
-  expiresAt: 1915412211,
+  type: "lifetime",
+  expiresAt: null,
   isActive: true,
   verifiedAt: NOW
 };
 
 const license = {
-  id: "pro_trial_crack",
+  id: "crack-lifetime",
   licenseKey: "MOSHI-KY1A-GXR6-JM3P",
   status: "ACTIVE",
-  productKey: "pro_trial",
-  expiresAt: 1915412211,
+  productKey: "pro_lifetime",
+  expiresAt: null,
   startsAt: NOW,
   autoRenew: false,
-  email: "rapporbit2@gmail.com",
-  emailBoundAt: NOW,
   activationId: "act_qu3W0Fc167lhZT-GQ__bug",
   verifiedAt: NOW,
   entitlement: entitlement
