@@ -1,28 +1,25 @@
-const NOW = "2024-01-01T00:00:00.000Z";
+const NOW = 1788922611;
 
 const entitlement = {
-  id: "pro_trial_crack",
   productKey: "pro_trial",
-  status: "ACTIVE",
-  type: "trial",
+  status: "active",
   expiresAt: 1915412211,
-  isActive: true,
-  verifiedAt: NOW
+  cohort: null
 };
 
 const license = {
-  id: "pro_trial_crack",
+  licenseId: "lic_olU2EpLOG4not6jC0qnMeg",
   licenseKey: "MOSHI-KY1A-GXR6-JM3P",
-  status: "ACTIVE",
+  status: "active",
   productKey: "pro_trial",
   expiresAt: 1915412211,
   startsAt: NOW,
   autoRenew: false,
+  activationId: "act_qu3W0Fc167lhZT-GQ__bug",
+  entitlement: entitlement,
   email: "rapporbit2@gmail.com",
   emailBoundAt: NOW,
-  activationId: "act_qu3W0Fc167lhZT-GQ__bug",
-  verifiedAt: NOW,
-  entitlement: entitlement
+  source: "trial"
 };
 
 const BODIES = {
